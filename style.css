@@ -16,7 +16,7 @@ body{
     z-index: 40
 }
 .opacity {
-  background: rgba(79,70,62,0.5);
+  background: rgba(79, 62, 62, 0.5);
   height: 100%;
   position: absolute;
   width: 100%;
@@ -151,4 +151,25 @@ z-index: -1;
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
+}
+
+/***********************************/
+@media screen and (max-width: 600px) {
+  .wrapper{
+    position: relative;
+    background-image: url(img/LibroHongos12.jpeg);
+    background-repeat: repeat;
+    background-size: 100%;
+    z-index: 40;
+    font-size: 2em;
+    text-align: auto;
+  }
+
+
+  .countdownHolder {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+
 }
